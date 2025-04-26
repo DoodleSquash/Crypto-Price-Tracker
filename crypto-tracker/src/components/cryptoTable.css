@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #f5f7fa;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #6c757d;
+  }
+  
+  .crypto-table {
+    width: 95%;
+    margin: 0 auto;
+    overflow-x: auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 10px;
+  }
+  
+  .crypto-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .crypto-table thead {
+    background-color: #f8f9fa;
+  }
+  
+  .crypto-table th, .crypto-table td {
+    padding: 12px 10px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .crypto-table th {
+    color: #6c757d;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  
+  .crypto-table tbody tr {
+    border-bottom: 1px solid #e9ecef;
+  }
+  
+  .crypto-table tbody tr:hover {
+    background-color: #f1f3f5;
+    transition: background 0.3s;
+  }
+  
+  .crypto-table img {
+    vertical-align: middle;
+  }
+  
+  .crypto-table td:first-child, 
+  .crypto-table td:nth-child(3), 
+  .crypto-table td:nth-child(4) {
+    text-align: left;
+  }
+  
+  .crypto-table td:nth-child(2) img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+  }
+  
+  .crypto-table td {
+    color: #212529;
+  }
+  
+  .crypto-table td.positive {
+    color: #16c784; /* green */
+  }
+  
+  .crypto-table td.negative {
+    color: #ea3943; /* red */
+  }
+  
+  @media (max-width: 768px) {
+    .crypto-table th, .crypto-table td {
+      padding: 8px 5px;
+      font-size: 12px;
+    }
+  }
+  
